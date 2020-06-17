@@ -2,11 +2,11 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  background: lightblue;
+  background: white;
 }
 @media screen and (min-width:400px){
   body{
-    background: lightgreen;
+    background: #f0f0f5;
   }
   .container{
     width:85%;
@@ -23,7 +23,7 @@ body {
 }
 @media screen and (min-width:1200px){
   body{
-    background:#FFF5F5;
+    background:#f0f0f5;
   }
   .container{
     width:60%;
@@ -33,7 +33,7 @@ h1 {
   font-style: normal;
   font-family:"verdana"; 
   font-stretch:bold;
-  color: black; 
+  color: #b6b6b8;
   text-align: Center;
   background-color:aliceblue;
 }
@@ -87,7 +87,7 @@ html {
   }
 
 .social{
-  background:grey;
+  background:lightblue;
   align-self : center;
   display:inline-block;
   align-items: center;
