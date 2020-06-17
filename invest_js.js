@@ -1,1 +1,1 @@
-alert("My baby yu hwee is here" );
+alert("Disclaimer: This is not investment advisory" );

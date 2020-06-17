@@ -33,7 +33,7 @@ h1 {
   font-style: normal;
   font-family:"verdana"; 
   font-stretch:bold;
-  color: #b6b6b8;
+  color: black; 
   text-align: Center;
   background-color:aliceblue;
 }
@@ -103,5 +103,5 @@ html {
 }
 
 .nav-wrapper{
-  
+  background:#b6b6b8;
 }
