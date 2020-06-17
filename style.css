@@ -17,7 +17,7 @@ body {
 }
 @media screen and (min-width:1200px){
   body{
-    background:grey;
+    background:lightgrey;
   }
 }
 h1 {
@@ -31,6 +31,12 @@ h1 {
   margin-right: auto;
   display: block;
   
+}
+.index_html{
+  font-style: oblique;
+  padding: 10px;
+  font-size: 20px;
+  text-align:Center;
 }
 
 p {
