@@ -31,7 +31,8 @@ body {
 }
 h1 {
   font-style: italic;
-  color: #373fff;
+  font-family: Arial; 
+  color: #373fff; 
   text-align: Center;
   background-color:aliceblue;
 }
@@ -98,4 +99,8 @@ html {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.nav-wrapper{
+  
 }
