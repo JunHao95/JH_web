@@ -30,9 +30,10 @@ body {
   }
 }
 h1 {
-  font-style: italic;
-  font-family: Arial; 
-  color: #373fff; 
+  font-style: normal;
+  font-family:"verdana"; 
+  font-stretch:bold;
+  color: black; 
   text-align: Center;
   background-color:aliceblue;
 }
