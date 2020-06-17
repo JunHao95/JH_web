@@ -2,8 +2,13 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
+  background: lightblue;
 }
-
+@media screen and (min-width:400px){
+  body{
+    background 
+  }
+}
 h1 {
   font-style: italic;
   color: #373fff;
@@ -32,3 +37,4 @@ table,th,td{
 .Intro{
   text-align: Center;
 }
+
