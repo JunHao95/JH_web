@@ -8,16 +8,25 @@ body {
   body{
     background: lightgreen;
   }
+  .container{
+    width:85%;
+  }
 }
 
 @media screen and (min-width:800px){
   body{
     background: lavender;
   }
+  .container{
+    width:70%;
+  }
 }
 @media screen and (min-width:1200px){
   body{
     background:#FFF5F5;
+  }
+  .container{
+    width:60%;
   }
 }
 h1 {
@@ -57,3 +66,8 @@ table,th,td{
   text-align: Center;
 }
 
+.container{
+  position: relative;
+  width:70%;
+  margin:
+}
