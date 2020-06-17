@@ -86,6 +86,16 @@ html {
 
 .social{
   background:grey;
-  display: inline-block; 
-  vertical- align:Center;
+  align-self : center;
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
