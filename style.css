@@ -6,7 +6,18 @@ body {
 }
 @media screen and (min-width:400px){
   body{
-    background 
+    background: lightgreen;
+  }
+}
+
+@media screen and (min-width:800px){
+  body{
+    background: lavender;
+  }
+}
+@media screen and (min-width:1200px){
+  body{
+    background:grey;
   }
 }
 h1 {
