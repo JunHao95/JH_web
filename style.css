@@ -17,13 +17,14 @@ body {
 }
 @media screen and (min-width:1200px){
   body{
-    background:lightgrey;
+    background:#FFF5F5;
   }
 }
 h1 {
   font-style: italic;
   color: #373fff;
-  text-align: Center
+  text-align: Center;
+  background-color:aliceblue;
 }
 
 .profile {
@@ -37,6 +38,7 @@ h1 {
   padding: 10px;
   font-size: 20px;
   text-align:Center;
+  background-color:#f6eec7;
 }
 
 p {
