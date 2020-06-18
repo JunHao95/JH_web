@@ -104,7 +104,8 @@ html {
 }
 .container:hover .overlay {
     opacity: 0.5;
-  height:50px;
+  height:50%;
   width:50%;
-  text-align: center;
+  align: center;
+  position:ab
 }
