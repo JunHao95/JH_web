@@ -38,12 +38,6 @@ h1 {
   background-color:aliceblue;
 }
 
-.profile {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  
-}
 .index_html{
   font-style: oblique;
   padding: 10px;
@@ -64,9 +58,6 @@ table,th,td{
   table-layout:fixed;
   width:100%
 }
-.Intro{
-  text-align: Center;
-}
 
 .container{
   position: relative;
@@ -86,13 +77,6 @@ html {
   box-sizing: inherit;
   }
 
-.social{
-  background:lightblue;
-  align-self : center;
-  display:inline-block;
-  align-items: center;
-  justify-content: center;
-}
 
 .container {
   display: flex;
