@@ -87,7 +87,8 @@ html {
 }
 
 .nav-wrapper{
-  background:Grey;
+  background:Grey; /*#b6b6b8*/
+  color: Black;
 }
 
 .overlay {
