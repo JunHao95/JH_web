@@ -103,9 +103,9 @@ html {
     background-color: #A6C5D8;
 }
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 1;
   height:50%;
   width:50%;
   align: center;
-  position:ab
+  position:relative;
 }
