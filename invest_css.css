@@ -55,4 +55,5 @@ body{
   white-space:nowrap;
   direction:ltr;
   -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
 }
