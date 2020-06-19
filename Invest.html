@@ -103,7 +103,14 @@
       <a id="refresh" class="btn-floating waves-effect waves-light blue" onclick="refreshStocks()">
       <i class="material-icons">Refresh</i></a>
       <script>
-        if ('serviceWorker')
+        if ('serviceWorker' in navigator){
+          window.addEventListener('load',() => {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then((reg) => {
+              console.log('Service worker registered.', reg)
+            });
+          });
+        }
       </script>
     </body>
   
