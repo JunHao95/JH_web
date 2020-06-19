@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Investment</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- From: https://materializecss.com/getting-started.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" /></script>
+
+    <link rel="stylesheet" href="/invest_css.css">
+
+  </head>  
+<span id="warning-container">
+<i data-reactroot></i></span>
+  <body data-gr-c-s-loaded>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Content Page</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">HOME</a></li>
+          <li class="active"><a href="About_myself.html">About_me</a></li>
+          <li class="active"><a href="Education.html">Education</a></li>
+          <li><a href="Work.html">Work Experiences</a></li>
+          <li><a href="Skills.html">Skills set</a></li>
+          <li><a href="Invest.html">Invest</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+<!--
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="Education.html">About_me</a></li>
+    </ul>
+--> 
+    <span id="warning-container"><i data-reactroot></i></span>
+    <body data-gr-c-s-loaded="true" class="vsc-initialized">
+      <nav class="nav-extended">
+        <div class="nav-wrapper blue darken-4">
+          <a href="https://cdn.glitch.com/2c1c8403-b21b-4035-98a9-ff7e0bfb4d9d%2Fmoney.jpg?v=1592491618033" class="brand-logo">Money</a>
+          <a href="https://cdn.glitch.com/2c1c8403-b21b-4035-98a9-ff7e0bfb4d9d%2Fchoice.jpg?v=1592491782259" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">Menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="Stocks.html">Stocks</a></li>
+            <li><a href="Bitcoin.html">Bitcoin</a></li>
+            <li><a href="Forex.html">Forex</a></li>
+          </ul>
+        </div>      
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li class="active"><a href="Stocks.html">Stocks</a></li>
+        <li><a href="Bitcoin.html">Bitcoin</a></li>
+        <li><a href="Forex.html">Forex</a></li>        
+      </ul>
+      <h1 class='title'>Making Money!   
+      </h1>
+      <a id="add" class="btn-floating waves-effect waves-light blue"><i class="material-icons">add_circle</i></a>
+      <div id="meme1" class="meme">
+        <img src="https://cdn.glitch.com/2c1c8403-b21b-4035-98a9-ff7e0bfb4d9d%2Fstocks.jpg?v=1592456358762" align="middle">
+      </div>
+      <table class="centered highlight">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Prices</th>
+            <th>Volume</th>
+          </tr>        
+        </thead>
+        <tbody id="stockstbl">
+          <tr id="SGD/USD">
+            <td class="ticker">SGD/USD</td>
+            <td class="price"></td>
+            <td class="volume"></td>
+          </tr>
+          <tr id="JYP/USD">
+            <td class='ticker'>JPY/USD</td>
+            <td class="price"></td>
+            <td class="volume"></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Modal Trigger -->
+      <a id="tnc" class="waves-effect waves-light btn-small btn modal-trigger" href="https://cdn.glitch.com/2c1c8403-b21b-4035-98a9-ff7e0bfb4d9d%2FDisclaimer.jpg?v=1592498862986">Disclaimer</a>
+      <!-- Modal Strcture -->
+      <div id="modal1" class="modal" tabindex="0">
+        <div class="modal-content">
+          <h3>
+            Take Note!
+          </h3>
+          <p>
+            The information on this site does not suggest any action. If you incur any loss, we do not bear any responsibilities
+          </p>          
+        </div>
+        <div class="modal-footer">
+         <a href="https://cdn.glitch.com/2c1c8403-b21b-4035-98a9-ff7e0bfb4d9d%2Fagree.jpg?v=1592499241337" class="modal-close waves-effect waves-green btn-flat">I agree</a>
+        </div>
+      </div>
+      <a id="refresh" class="btn-floating waves-effect waves-light blue" onclick="refreshStocks()">
+      <i class="material-icons">Refresh</i></a>
+      <script>
+        if ('serviceWorker' in navigator){
+          window.addEventListener('load',() => {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then((reg) => {
+              console.log('Service worker registered.', reg)
+            });
+          });
+        }
+      </script>
+      <script src= "/invest_js.js"></script>
+      <div class="sidenav-overlay">     
+      </div>
+      <div class="drag-target">
+      </div>
+    </body>   
+  </body>
+</html>
