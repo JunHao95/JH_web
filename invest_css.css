@@ -13,3 +13,27 @@ nav .nav-wrapper{
 div{
   display:block;
 }
+html{
+  line-height:1.5px;
+  font-weight:bold;
+}
+
+@media only screen and (min-width: 601px)
+  nav,nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
+    line-height:64px;
+    height:64px;
+}
+@media only screen and (min-width:1200px)
+  html{
+    font-size:15px;
+}
+
+nav{
+  color:#fff;
+  
+}
+
+body{
+  font-family: helvetica,arial,sans-serif;
+  background: beige; 
+}
