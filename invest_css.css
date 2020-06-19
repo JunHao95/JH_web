@@ -34,7 +34,8 @@ html{
     display: inline-block;
     text-align: center;
     color: #fff;
-    font
+    font-size: 0.5rem;
+    line-height:60px;
 }
 nav{
   color:#fff;
@@ -44,4 +45,14 @@ nav{
 body{
   font-family: helvetica,arial,sans-serif;
   background: beige; 
+}
+.material-icons:{
+  font-family: 'Material Icons';
+  font-weight:normal;
+  font-style:normal;
+  letter-spacing:normal;
+  text-transform:none;
+  white-space:nowrap;
+  direction:ltr;
+  -webkit-font-smoothing:antialiased;
 }
