@@ -1,1 +1,0 @@
-alert("Disclaimer: This is not investment advisory" );

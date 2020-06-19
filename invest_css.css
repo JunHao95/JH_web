@@ -1,2 +1,15 @@
-/* pulse to make the button look stunnign*/
-<a class="btn-floating btn-large cyan pulse"><i class="material-icons">menu</i></a>
+.blue.darken-4{
+  background-color: darkblue;
+}
+
+nav .nav-wrapper{
+  position:relative;
+  height:100%;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+
+div{
+  display:block;
+}
