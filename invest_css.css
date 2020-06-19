@@ -28,6 +28,14 @@ html{
     font-size:15px;
 }
 
+@media only screen and (min-width: 768px)
+  .btn-floating{
+    width:inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font
+}
 nav{
   color:#fff;
   
