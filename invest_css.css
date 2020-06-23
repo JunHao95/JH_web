@@ -9,6 +9,31 @@ nav .nav-wrapper{
 *,*:before,*:after{
   box-sizing:inherit;
 }
+h1 {
+  font-family: Bangers;
+  color: #d6e0ff;
+  font-size: 40px;
+  margin: 10px;
+}
+.brand-logo{
+  font-family: 'Audiowide';
+}
+
+.item{
+  height: 25px;
+  width: 50%;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+
+.list {  
+  display: flex;  
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+   
+}
 
 div{
   display:block;
@@ -56,4 +81,37 @@ body{
   direction:ltr;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+}
+
+th{
+  color: Darkblue
+}
+
+td{
+  color: skyblue;
+}
+
+.sidenav li a{
+  color: grey;
+  
+}
+.sidenav{
+  background-color: #353c52;
+  text-color: #d6e0ff;
+}
+
+.sidenav li a:active{
+  background-color: red;
+}
+img{
+  max-width: 100%;
+  height:auto;
+  width:auto;
+}
+
+#add{
+  margin: 8px;
+  float: right;
+  display: inline-block;
+  
 }
