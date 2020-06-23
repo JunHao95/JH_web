@@ -109,41 +109,41 @@ nav{
   color:#fff;
   
 }
-  .meme{
+.meme{
     max-width: 49%;
     height: auto;
     display: inline-block;
     margin: 15px 5px;
   }
-  table{
+table{
     max-width: 49%;
     float: right;
   }
-  .title{
+.title{
     width: 50%;
     margin: 15px;
     font-size: 80px;
     display: inline-block;
   }
   
-  th{
+th{
     color: #d6e0ff;
     font-size: 25px;
   }
 
-  td{
+td{
     color: #d6e0ff;
     font-size: 20px;
     padding: 10px 5px;
   }
   
-  #add{
+#add{
     margin: 8px;
     float: right;
     display: inline-block;
   @include md-icon-size(36px);
   }
-  .btn-floating i {
+.btn-floating i {
     width: inherit;
     display: inline-block;
     text-align: center;
@@ -151,7 +151,7 @@ nav{
     font-size: 2.5rem;
     line-height: 70px;
   }
-  .btn-floating{
+.btn-floating{
     height: 70px;
     width: 70px;
   }
@@ -160,7 +160,11 @@ body{
   font-family: helvetica,arial,sans-serif;
   background: beige; 
 }
-.material-icons:{
+
+
+}
+
+/* .material-icons:{
   font-family: 'Material Icons';
   font-weight:normal;
   font-style:normal;
@@ -170,6 +174,4 @@ body{
   direction:ltr;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
-}
-
-}
+}*/
