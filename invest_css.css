@@ -43,45 +43,6 @@ html{
   font-weight:bold;
 }
 
-@media only screen and (min-width: 601px)
-  nav,nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
-    line-height:64px;
-    height:64px;
-}
-@media only screen and (min-width:1200px)
-  html{
-    font-size:15px;
-}
-
-@media only screen and (min-width: 768px)
-  .btn-floating{
-    width:inherit;
-    display: inline-block;
-    text-align: center;
-    color: #fff;
-    font-size: 0.5rem;
-    line-height:60px;
-}
-nav{
-  color:#fff;
-  
-}
-
-body{
-  font-family: helvetica,arial,sans-serif;
-  background: beige; 
-}
-.material-icons:{
-  font-family: 'Material Icons';
-  font-weight:normal;
-  font-style:normal;
-  letter-spacing:normal;
-  text-transform:none;
-  white-space:nowrap;
-  direction:ltr;
-  -webkit-font-smoothing:antialiased;
-  text-rendering:optimizeLegibility;
-}
 
 th{
   color: Darkblue
@@ -110,8 +71,105 @@ img{
 }
 
 #add{
-  margin: 8px;
+  margin: 10px;
   float: right;
   display: inline-block;
+}
+#refresh{
+  margin: 7px;
+  float: right;
+}
+
+#tnc{
+  margin: 10px;
+  float: left;
+  bottom: 0px;  
+}
+
+@media only screen and (min-width: 601px)
+  nav,nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
+    line-height:64px;
+    height:64px;
+}
+@media only screen and (min-width:1200px)
+  html{
+    font-size:15px;
+}
+
+@media only screen and (min-width: 768px){
+  .btn-floating{
+    width:inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5rem;
+    line-height:60px;
+}
+nav{
+  color:#fff;
   
+}
+  .meme{
+    max-width: 49%;
+    height: auto;
+    display: inline-block;
+    margin: 15px 5px;
+  }
+  table{
+    max-width: 49%;
+    float: right;
+  }
+  .title{
+    width: 50%;
+    margin: 15px;
+    font-size: 80px;
+    display: inline-block;
+  }
+  
+  th{
+    color: #d6e0ff;
+    font-size: 25px;
+  }
+
+  td{
+    color: #d6e0ff;
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+  
+  #add{
+    margin: 8px;
+    float: right;
+    display: inline-block;
+  @include md-icon-size(36px);
+  }
+  .btn-floating i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 70px;
+  }
+  .btn-floating{
+    height: 70px;
+    width: 70px;
+  }
+
+body{
+  font-family: helvetica,arial,sans-serif;
+  background: beige; 
+}
+.material-icons:{
+  font-family: 'Material Icons';
+  font-weight:normal;
+  font-style:normal;
+  letter-spacing:normal;
+  text-transform:none;
+  white-space:nowrap;
+  direction:ltr;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
 }
