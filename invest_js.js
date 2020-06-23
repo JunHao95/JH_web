@@ -2,14 +2,12 @@ alert("Disclaimer: Venture at your own risk" );
 
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
-
-M.AutoInit();
-
 // Instruction from https://materializecss.com/navbar.html
 document.addEventListener("DOMContentLoaded", function() {
   var elems = document.querySelectorAll(".sidenav");
   var instances = M.Sidenav.init(elems, {});
 });
+M.AutoInit();
 
 
 var prices = document.getElementsByClassName("price");
