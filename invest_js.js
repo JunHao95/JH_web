@@ -121,11 +121,11 @@ function refreshStocks() {
   
   Object.keys(tickers).forEach(function(key) {
     var currentTicker = tickers[key].innerHTML;
-    if(childNode.firstChild.innerHTML == "Stonks"){
+    if(childNode.firstChild.innerHTML == "Stocks"){
        var currentPrice = getSPrice(currentTicker,key);
        console.log(currentPrice);
     }
-    else if(childNode.firstChild.innerHTML == "Forex" || childNode.firstChild.innerHTML == "Crypto"){
+    else if(childNode.firstChild.innerHTML == "Forex" || childNode.firstChild.innerHTML == "Bitcoin"){
        var currentPrice = getFPrice(currentTicker,key);
        console.log(currentPrice);
     }
