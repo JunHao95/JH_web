@@ -104,14 +104,13 @@ async function getFPrice(ticker,i) {
 }
 
 
-//can get volume as well
-//  data.bids.forEach(bid => {
-// 	const li = document.createElement('li');
-//   li.classList.add('some-class'); // for style
-//   li.innerHTML = bid.price;
-//    ul.appendChild(li);
-// })
-//}
+  data.bids.forEach(bid => {
+ 	const li = document.createElement('li');
+   li.classList.add('some-class'); // for style
+   li.innerHTML = bid.price;
+    ul.appendChild(li);
+ })
+
 
 function refreshStocks() {
   var tickers = document.getElementsByClassName("ticker");
