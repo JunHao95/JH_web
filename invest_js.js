@@ -99,7 +99,7 @@ async function getFPrice(ticker,i) {
   
   console.log(price);
   prices[i].innerHTML = price;
-  volumes[i].innerHTML = "na";
+  volumes[i].innerHTML = "Not Available";
   
 }
 
