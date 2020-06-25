@@ -72,7 +72,7 @@ console.log(dateTime);
 
 async function getSPrice(ticker,i) {
   const response = await fetch(
-    `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${ticker}&interval=5min&apikey=694D4BGKIBXX1N4E`
+    `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${ticker}&interval=5min&apikey=TJRW9PM95YXUB39H`
   );
   const data = await response.json(); // FX_INTRADAY&from_symbol=EUR&to_symbol=USD OR DIGITAL_CURRENCY_DAILY&symbol=BTC&market=CNY
 
@@ -91,7 +91,7 @@ async function getFPrice(ticker,i) {
   var toCurrency = currency[1];
   console.log(toCurrency);
   
-  const response = await fetch(`https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${fromCurrency}&to_currency=${toCurrency}&apikey=694D4BGKIBXX1N4E`);
+  const response = await fetch(`https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${fromCurrency}&to_currency=${toCurrency}&apikey=TJRW9PM95YXUB39H`);
   const data = await response.json(); // FX_INTRADAY&from_symbol=EUR&to_symbol=USD OR DIGITAL_CURRENCY_DAILY&symbol=BTC&market=CNY
   console.log(data);
   
