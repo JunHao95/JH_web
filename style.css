@@ -12,7 +12,10 @@ body {
     width:85%;
   }
 }
-
+img{
+  display:block;
+  margin:
+}
 @media screen and (min-width:800px){
   body{
     background: lavender;
