@@ -57,6 +57,9 @@ h1 {
 .brand-logo{
   font-family: 'Audiowide';
 }
+p{
+  font-size:30px;
+}
 
 .item{
   height: 25px;
