@@ -96,22 +96,13 @@ async function getFPrice(ticker,i) {
   console.log(data);
   
   const price = data["Realtime Currency Exchange Rate"]["5. Exchange Rate"];//["2020-05-20 16:00:00"]["4. close"];//
+  const volume = data["Realtime Currency Exchange Rate"]["6. Volume"];
   
   console.log(price);
   prices[i].innerHTML = price;
-  volumes[i].innerHTML = "Not Available";
+  volumes[i].innerHTML = volume;
   
 }
-
-
-//can get volume as well
-//  data.bids.forEach(bid => {
-// 	const li = document.createElement('li');
-//   li.classList.add('some-class'); // for style
-//   li.innerHTML = bid.price;
-//    ul.appendChild(li);
-// })
-//}
 
 function refreshStocks() {
   var tickers = document.getElementsByClassName("ticker");
