@@ -1,7 +1,22 @@
 .blue.darken-4{
   background-color: darkblue;
 }
-
+h2 {
+  font-style: normal;
+  font-family:"verdana"; 
+  font-stretch:bold;
+  color: black; 
+  text-align: Center;
+  background-color:aliceblue;
+  display: inline-block; 
+}
+.container{
+  position: relative;
+  width:70%;
+  margin:auto;
+  max-width: 1280px;
+  text-align: center;
+}
 body {
   font-family: helvetica, arial, sans-serif;
   background: white;
