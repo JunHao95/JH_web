@@ -96,11 +96,11 @@ async function getFPrice(ticker,i) {
   console.log(data);
   
   const price = data["Realtime Currency Exchange Rate"]["5. Exchange Rate"];//["2020-05-20 16:00:00"]["4. close"];//
-  const volume = data["Realtime Currency Exchange Rate"]["6. Volume"];
+  const Time = data["Realtime Currency Exchange Rate"]["6. Last Refreshed"];
   
   console.log(price);
   prices[i].innerHTML = price;
-  volumes[i].innerHTML = volume;
+  volumes[i].innerHTML = Time;
   
 }
 
