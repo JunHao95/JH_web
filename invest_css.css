@@ -152,10 +152,11 @@ nav{
   
 }
 .meme{
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     display: inline-block;
-    margin: 15px 5px;
+    margin: 15px 15px;
+    align:center;
   }
 table{
     max-width: 49%;
