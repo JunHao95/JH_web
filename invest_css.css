@@ -16,15 +16,34 @@ h2 {
   margin:auto;
   max-width: 1280px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 body {
   font-family: helvetica, arial, sans-serif;
   background: white;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #A6C5D8;
+}
 
 nav .nav-wrapper{
   position:relative;
   height:100%;
+  background:Grey; /*#b6b6b8*/
+  color: Black;
 }
 *,*:before,*:after{
   box-sizing:inherit;
